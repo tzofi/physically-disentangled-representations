@@ -1,2 +1,1 @@
-# physically-disentangled-representations
-Physically Disentangled Representations
+# Physically Disentangled Representations
