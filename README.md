@@ -1,4 +1,4 @@
-# Physically Disentangled Representations
+# Physically Disentangled Representations (PDR)
 
 This repository contains the code used for Physically Disentangled Representations (in submission).
 
