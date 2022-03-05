@@ -40,19 +40,15 @@ python run_trainer.py
 
 ### Segmentation
 
-We leverage the implementation of U-net from [here]() for face segmentation.
+We leverage the implementation of U-net from [here](https://github.com/switchablenorms/CelebAMask-HQ/tree/master/face_parsing) for face segmentation.
 
 To run supervised baseline:
 
 ```
-python run.py
+python -u main.py --batch_size 8 --imsize 64 --version baseline
 ```
 
-To use pretrained encoder:
-
-```
-python run.py path_to_pretrained_model/ckpt.pt
-``` 
+To use pretrained encoder, modify trainer.py to import unet\_encoder (can use albedo or geometry features) or unet\_encoder\_joint (uses both albedo and geometry). Specify the pre-trained U-net checkpoint in the corresponding encoder.py file. Then use the same command as above to train. Weights can be frozen by uncommenting the corresponding code in trainer.py.
 
 ## Baselines
 

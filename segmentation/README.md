@@ -4,6 +4,18 @@ The code in this directory is adapted from [this repo](https://github.com/switch
 
 We pre-train the U-net encoder using PDR (Physically Disentangled Representations) and then use it for segmentation, as compared to the supervised U-net baseline.
 
+To train:
+
+```
+python -u main.py --batch_size 8 --imsize 64 --version exptName
+```
+
+To test:
+
+```
+python -u main.py --batch_size 4 --imsize 64 --version exptName --train False
+```
+
 ## Face parsing
 A Pytorch implementation face parsing model trained by CelebAMask-HQ
 ## Dependencies
