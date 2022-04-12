@@ -1,6 +1,6 @@
 # Physically Disentangled Representations (PDR)
 
-This repository contains the code used for Physically Disentangled Representations (in submission).
+This repository contains the code used for the paper, [Physically Disentangled Representations](https://arxiv.org/pdf/2204.05281.pdf).
 
 
 ## Overview
