@@ -1,8 +1,5 @@
 # Physically Disentangled Representations (PDR)
 
-This repository contains the code used for the paper, [Physically Disentangled Representations](https://arxiv.org/pdf/2204.05281.pdf).
-
-
 ## Overview
 
 Our proposed method builds off existing inverse rendering techniques to learn physically disentangled representations that can be used across many downstream tasks. Our repository contains the code used to train the inverse renderer used in our method, both with or without our proposed Leave-One-Out, Cycle Contrastive loss (LOOCC). We then provide the code used for evaluating our model on downstream clustering, linear classification, and segmentation tasks. Lastly, the repo contains the code used to benchmark other methods against our own, so that all results in our paper can easily be reproduced.
